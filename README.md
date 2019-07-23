@@ -13,10 +13,15 @@ method: GET
 |--------------|-------------|--------------|---------------|---------------|
 | token | string | Y | we468GEH | Unique token to access API.|
 | country | string | Y | US | [ISO Country code.](https://en.wikipedia.org/wiki/ISO_3166-1) | 
-| zone | int | Y | 0 | Traffic type: 0-resident, 1-datacenter, 2-mobile. |
+| zone | int | Y | 0 | Traffic type: 0-3G/4G, 1-WIFI. |
 | os | int | Y | 1 | Operation system: 1-iOS, 2-Android. |
 | carrier | string | N | Sprint | Mobile Carrier. |
 | url | string | Y | https://domain/path?query | The link you want to trace. |
+
+Notes:
+- 1 WIFI Trace: 1 Credit
+- 1 3G/4G Trace: 20 Credit
+
 
 ### Response
 | Parameter | Type | Example | Description |
