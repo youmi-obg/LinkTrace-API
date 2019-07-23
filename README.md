@@ -3,7 +3,7 @@ This the document for link trace api.
 
 ## Api
 ```
-url: https://api.trailmi.com/track?token=your_token&country=JP&os=1zone=1&carrier=target_carrier&url=www.bing.com
+url: https://api.trailmi.com/track?token=your_token&country=JP&os=1&zone=1&carrier=target_carrier&url=www.bing.com
 
 method: GET
 ```
