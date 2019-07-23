@@ -3,7 +3,7 @@ This the document for link trace api.
 
 ## Api
 ```
-url: https://euler-awsjp.umlife.net/api/open/track?token=your_token&country=JP&os=1zone=1&carrier=target_carrier&url=www.bing.com
+url: https://api.trailmi.com/track?token=your_token&country=JP&os=1zone=1&carrier=target_carrier&url=www.bing.com
 
 method: GET
 ```
@@ -42,7 +42,7 @@ method: GET
 ## Example
 Request:
 ```
-curl https://euler-awsjp.umlife.net/api/open/track?token=your_token&os=2&country=id&zone=1&carrier=&source=2&url=http://github.com
+curl https://api.trailmi.com/track?token=your_token&os=2&country=id&zone=1&carrier=&source=2&url=http://github.com
 ```
 
 Response
